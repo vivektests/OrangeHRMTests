@@ -105,7 +105,11 @@ The framework uses Playwright's built-in HTML reporter and Allure reporter for c
 ## Commands to run before running tests
 
 npm init playwright --yes
+
 npm install dotenv --save
+
 npm install --save-dev @playwright/test allure-playwright
+
 npm install eslint
+
 npm install -D allure-playwright
