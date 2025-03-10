@@ -1,0 +1,32 @@
+{
+    "ValidUsernamePassword":{
+        "username":"Admin",
+        "password":"admin123",
+        "testType":"Positive"
+    },
+    "CaseInsensitiveCheck":{
+        "username":"aDmin",
+        "password":"admin123",
+        "testType":"Positive"
+    },
+    "InvalidPassword":{
+        "username":"Admin",
+        "password":"admi3",
+        "testType":"Negative"
+    },
+    "EmptyPassword":{
+        "username":"Admin",
+        "password":"",
+        "testType":"Negative"
+    },
+    "EmptyUsername":{
+        "username":"",
+        "password":"admin123",
+        "testType":"Negative"
+    },
+    "EmptyUsernamePassword":{
+        "username":"",
+        "password":"",
+        "testType":"Negative"
+    }
+}

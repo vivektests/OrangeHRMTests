@@ -1,0 +1,36 @@
+{
+  "name": "orangesource",
+  "version": "1.0.0",
+  "description": "Playwright test automation framework for OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "test:single": "playwright test",
+    "test:parallel": "playwright test --workers=4",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "allure-playwright": "^3.2.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-playwright": "^1.0.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "orangesource": "file:"
+  }
+}
